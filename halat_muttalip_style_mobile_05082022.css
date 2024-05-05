@@ -1,0 +1,553 @@
+@media screen and (max-width: 768px){
+
+  *{
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+    .block_header {
+      margin: 0% 20px;}
+  
+      .block_body {
+          justify-content: space-between;
+          height: 4550px;
+          }
+      .bas_page {
+          padding: 30px;
+          display: flex;
+          background-color: #F2F2F2;
+          flex-direction: column;
+          gap: 50px;
+        }
+          
+          
+      body {
+          margin:0;
+          font-family: 'Raleway';
+          } 
+          .haut_page {
+            display: flex;
+            flex-direction: column;
+          }        
+  /*________________header________________*/
+  
+
+  #logo_img {
+    width: 61px;
+  }
+    .haut_page{ 
+        display: flex;
+        flex-direction: column;
+        }
+    .logo{
+      margin-top: 30px;
+      justify-content: space-between;
+      width: 100%;
+      text-align: center;
+          }
+    
+  /*__________liens en haut à droite__________*/    
+  .block_1 {
+      margin: 20px 0px 0px 0px;
+      display: flex;
+      height: 30px;
+    }
+    
+    #heb {
+      text-align: center;
+      color: #0065FC;
+      border-bottom: 4px solid #0065FC;
+      width: 110%;
+      font-size: 16px;
+      padding-bottom: 19px;
+      height: 19px;
+    }
+    #act{
+        text-align: center;
+        color: #000000;
+        border-bottom: 4px solid #e9e9e9;
+        width: 100%;
+        font-size: 16px;
+        padding-bottom: 19px;
+        height: 19px;
+    }
+    
+    #heb:hover {
+      text-align: center;
+      padding-bottom: 40px;
+      color: #0065FC;
+      border-bottom: 5px solid #0065FC;
+      width: 120%;
+    }
+    #act:hover {
+      text-align: center;
+      padding-bottom: 40px;
+      color: #0065FC;
+      border-bottom: 5px solid #0065FC;
+      width: 110%;
+    } 
+
+  /* le deux titres */
+    .Texte{
+      margin-top: 35px
+    }
+  .Texte h1 {
+    font-size: 4.4vmax;
+    font-weight: bold;
+    font-family: 'Raleway';
+  }
+  .Texte p {
+    font-size: 3vmax;
+    }
+  
+  .Texte h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+  .barre_de_recherche {
+    display: flex;
+    overflow: hidden;
+    height: 50px;
+  }
+  #image_recherche {
+    width: 3em;
+    border-radius: 15px 0% 0% 15px;
+    background-color: #f2f2f2;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 3.9vmax;
+  }
+  
+  #destination {
+    padding-left: 15%;
+    font-weight: bold;
+    border-style: none;
+    font-size: 100%;
+    width:100%;
+  }
+  .barre_de_recherche form {
+    border-bottom: 2px solid #f2f2f2;
+    border-top: 2px solid #f2f2f2;
+    display: flex;
+    border-radius: 0% 15% 15% 0%;
+    width: 100%;
+  }
+  
+  #rechercher {
+    display: none;
+  }
+  .block_recherche{
+    width: 74px;
+    font-size: 17px;
+    background-color: #0065FC;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+    display: grid;
+  }
+  .les_filtres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 19px;
+    font-size: 37px;
+  }
+  .les_filtres input {
+    padding: 0px 15px 0px 45px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 45px 45px 45px 45px;
+    font-size: 0.4em;
+    background-color: white;
+    border: solid 2px #F2F2F2;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+
+  }
+  .Economique ,
+  .Famillial ,
+  .Romantique,
+  .Animaux_Autorises  {
+    
+    margin-bottom: 10px;
+    margin-right: 15px;
+    border-radius: 45px 45px 45px 45px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+
+    
+  }
+  .Economique :hover,
+  .Famillial :hover,
+  .Romantique :hover,
+  .Animaux_Autorises :hover  {
+    border-radius: 45px 45px 45px 45px;
+    background-color: #DEEBFF;
+  }
+
+  .les_filtres p {
+    margin-right: 90%;
+    font-size: 20px;
+  }
+  
+  #image_filtres1,   #image_filtres2,   #image_filtres3,   #image_filtres4 {
+            margin-left: 15px;
+            border-radius: 45px 45px 45px 45px;
+            color: #0065FC;
+            background: rgba(255, 255, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            font-size: 22px;
+  }
+  .cases_populaires {
+    width: 100%;
+}
+  
+.info {
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    align-items: center;
+  }
+.info p {
+  font-size: 3.2vmax;
+  }
+  .info i {
+    font-size: 14px;
+    margin-right: 27px;
+  }
+#image_info {            
+  height: 20px;
+  width: 26px;
+  border-radius: 100%;
+  border: 2px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0065fc;
+  margin:0px 10px 0px 0px;
+  }
+  /*-------------------fin header--------------------*/
+  
+
+.block_hebergement {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+.description-text-note  {
+  padding: 0px 0px 10px 10px;
+  display: grid;
+  gap: 8px;
+
+}
+.description-text-note h2  {
+  margin: 0px;
+}
+.description-text-note p  {
+  margin: 0px;
+}
+.titre_droite{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.titres_note_droite
+  {
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .titres_note_droite p
+  {
+    margin: 0px;
+  }
+
+.note{
+    color: #0065fc;
+    font-weight: bolder;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+}
+.space{
+  flex: 1;
+}
+.note-solo{
+  font-size: 100%;
+  color: #0065fc;
+  font-weight: bolder;
+  margin: 0px 0px 18px 0px;
+}
+
+
+  /* Par défaut, une étoile est en gris*/
+  .fa-star {
+    color: #f2f2f2;
+  }
+  /* Si elle porte en plus la classe '.blue', elle sera en bleu. */
+  .fa-star.blue {
+    color: #0065FC;
+  }
+  
+    /* Le groupe '.stars' positionne les étoiles
+       les unes à côté des autres sans espacements. */
+    .stars {
+      display: inline-flex;
+      justify-content: center;
+      font-size:27px;
+    }
+  
+    /* A l'état :hover sur le parent '.rating',
+       on force TOUTES les étoiles à passer en jaune. */
+    .stars:hover .fa-star {
+      color: #0065FC
+    }
+
+    /* Et si la souris survole une étoile en particulier,
+       on sélectionne toutes les étoiles qui sont APRÈS celle-ci
+       grâce à l'opérateur '~' et on les force en GRIS */
+    .stars .fa-star:hover ~ .fa-star {
+      color: #f2f2f2;
+    }
+
+    .case1, .case2,.case3,.case4,.case5,.case6 {
+      height: 207px;
+    }
+  
+  .gauche {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 10px 10px;
+    flex-direction: column;
+    margin: 10px 7%;
+  }
+
+.cases_gauche{
+  width: 100%;
+  gap: 15px;
+  display: grid;
+}
+  .description_gauche{
+    height: max-content;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px #d9d9d9;
+}
+  .image_description_haut_gauche{  
+      border-radius: 10px 10px 10px 10px;
+      margin-bottom: 30px;
+      box-shadow: 0px 0px 5px 2px #d9d9d9;
+      object-fit: cover;
+  }
+  .gauche h1 {
+    margin: 20px 0px 30px 0px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .gauche h2 {
+    font-size: 16px;
+    margin-top:5px;
+    margin-bottom: 0px;
+  }
+  .gauche p {
+    font-size: 14px;
+  }
+  #image_gauche {
+    width: 657px;
+    height: 233px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+    object-fit: cover;
+  }
+  .fill {
+    object-fit: fill;
+    height: 115px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+  }
+  
+  
+  .droite {
+    background-color: #F2F2F2;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    padding: 0px 30px 30px 30px;
+}
+    
+  
+  .droite ul {
+    flex-direction: column;
+  }
+  #image_droite1,  #image_droite2,  #image_droite3  {
+    width: 35%;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px;
+    object-fit: cover;
+  }
+  .description_droite{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px #b8b8b8;
+    display: flex;
+    margin: 10px 0%;
+    height: 140px;
+  }
+  .droite h1 {
+    font-size: 24px;
+    margin: 30px 0px 30px 7%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .droite h2 {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }.droite h3 {
+    font-size: 1.2rem;
+    margin-top: 0px;
+    font-weight: normal;
+  }
+
+  .case7, .case8, .case9{
+    width: 100%;
+    height: 146px;
+  }
+
+
+  #afficher_plus{
+    margin:15px 0px 30px 0px;
+    font-size: 18px;
+    font-weight: bold;}
+  
+  
+  /*------------------fin premiere partie body----------------------*/
+  .block_activite {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 40px 30px;
+  }
+
+#ancre2 {
+  margin: 35px 30px 0px 30px;
+}
+
+  .partie1,
+  .partie2,
+  .partie3,
+  .partie4_1,
+  .partie4_2   {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+ 
+  .block_image_description {
+    box-shadow: 0px 0px 5px 2px #d9d9d9;
+    width: 100%;
+    box-shadow: 0 0 15px 3px rgba(0,0,0,0.1);
+    transition: .3s;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+  .block_image_description img {
+    height: 141px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+  .block_activite h1 {
+    font-size: 24px;
+    margin: 15px 0px 30px 35px;
+  }
+  .block_activite h2 {
+    padding:10px 20px 10px 20px;
+    font-size: 16px;
+    height: max-content;
+}
+  /*----------------bas de page--------------------*/
+  
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 15px;
+            display: grid;
+  }
+  li {
+    font-size: 16px;
+    margin: 0px;
+  }
+
+  .bas_page ul h2 {
+    font-weight: normal;
+    margin-top: 10px ;
+  }
+  .bas_page ul h1 {
+    font-size: 20px;
+    margin-bottom: 20px ;
+    
+  }
+  .bas_gauche{
+    width: 152px;
+    height: 78px;
+  }
+  .bas_centre{
+    width: 110px;
+    height: 57px;
+  }
+  .bas_droite {
+    width:76px;
+    height: 58px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+li.uppercase {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p.bolt {
+  font-weight: bold;
+  margin-left: 20px;
+    font-size: 22px;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+h2.bolt {
+  margin: 25px 0% 20px 0%;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+span{        margin: 25px 0% 20px 0%;
+  font-size: 22px;
+  color: #0065FC;
+}

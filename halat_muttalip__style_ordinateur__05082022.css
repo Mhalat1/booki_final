@@ -1,0 +1,537 @@
+
+@media screen and (min-width: 1024px){
+  *{
+    font-family: 'Raleway', sans-serif;
+  }
+  body {    
+    justify-content: center;
+    display: grid;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  p{
+    margin: 0px;
+  }
+  
+  header{
+    height: 385px;
+    max-width: 1340px;
+  
+
+  }
+
+  .block_header {
+    height: 322px;
+    gap: 35px;
+    display: grid;
+    max-width: 1390px;
+    padding: 0px 50px;
+  
+  }
+  .block_body {
+    justify-content: space-between;
+    height: 1162px;
+  }
+  .bas_page {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25%;
+    padding-left: 30px;
+    height: 163px;
+
+    margin: 0px 80px;
+    background-color: #f2f2f2;
+  } 
+
+
+  
+  /*________________header________________*/
+
+  .logo{
+    height: 79px;
+    padding: 0px 0px 30px 0px;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1390px;
+    padding: 0px 50px;
+  
+  }
+  #logo_img {
+    width: 61.09px;
+    height: 19px;
+    padding-top: 30px;
+  }
+  .Texte{
+    gap: 8px;
+    opacity: 0px;
+    height: 53px;
+    display: grid;
+  }
+  /*__________liens en haut à droite__________*/
+  .haut_page{
+    height: 109px;
+  }
+  .block_1 {
+    display: flex;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+    width: 400px;
+
+  }
+  #heb {
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+    border-top: 0px;
+    font-size: 18px;
+    width: 200px;
+  }
+  #act{
+    text-align: center;
+    padding-bottom: 28px;
+    padding-top:20px;
+    color: black;
+    border-top: 0px;
+    width: 200px;
+
+    font-size: 18px;
+  }
+  
+  #heb:hover {
+    text-align: center;
+    padding-top: 30px;
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+  }
+  #act:hover {
+    text-align: center;
+    padding-top: 30px;
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+  }
+  /* le deux titres */
+  .Texte h1 {
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 0px;
+  }
+  
+  .Texte h2 {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    margin:0px;
+  }
+  
+  .barre_de_recherche {
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    height: 45px;
+    width: 377px;
+}
+  
+  #image_recherche {
+    width: 50px;
+    height: 50px;
+    border-radius: 20% 0% 0% 20%;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #destination {
+    padding: 12px;
+    width: 185px;
+    font-weight: bold;
+    border-style: none;
+    font-size: 18px;
+  }
+  #rechercher {
+    background-color: #0065fc;
+    font-size: 17px;
+    width: 132px;
+    height: 48px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 0px 20px 20px 0px;
+  }
+  .block_recherche{
+    display: none;
+  
+  }
+  .les_filtres {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    width: 70%;
+    font-size: 18px;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .les_filtres input {
+    height: 50px;
+    padding-left: 55px;
+    padding-right: 13px;
+    font-weight: bold;
+    border-radius: 45px 45px 45px 45px;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+}
+  
+
+  .les_filtres p {
+    margin-right: 0%;
+  }
+  
+    #image_filtres1,   #image_filtres2,   #image_filtres3,   #image_filtres4 {
+      margin-left: 20px;
+      border-radius: 45px 45px 45px 45px;
+      color: #0065FC;
+      background: rgba(255, 255, 255, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      font-size: 20px;
+  }
+  
+  .Economique,
+  .Famillial,
+  .Romantique,
+  .Animaux_Autorises {
+    border-radius: 45px 45px 45px 45px;
+    border: solid 2px #D9D9D9;
+    align-items: center;
+    display: flex;
+  }
+
+
+  .Economique :hover,
+  .Famillial :hover,
+  .Romantique :hover,
+  .Animaux_Autorises :hover {
+    background-color:#DEEBFF ;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    height: 23px;
+  }
+  .info p {
+    font-size: 20px;
+  }
+  
+  .info i {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  #image_info {
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
+
+  }
+  /*-------------------fin header--------------------*/
+  .block_hebergement {
+    display: flex;
+    max-width: 1340px;
+    margin: 75px 0px;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0px 50px;
+  
+  }
+  .note {
+    color:#0065fc;
+    font-size: 0px;
+    margin: 10px 0px 10px 0px;
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+
+  /* Par défaut, une étoile est en gris*/
+.fa-star {
+  color: #f2f2f2;
+}
+/* Si elle porte en plus la classe '.blue', elle sera en bleu. */
+.fa-star.blue {
+	color: #0065FC;
+}
+
+	/* Le groupe '.note' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.note {
+    margin: 0px;
+	}
+
+	/* A l'état :hover sur le parent '.rating',
+		 on force TOUTES les étoiles à passer en jaune. */
+     .note:hover .fa-star {
+		color: #0065FC
+	}
+	/* Et si la souris survole une étoile en particulier,
+		 on sélectionne toutes les étoiles qui sont APRÈS celle-ci
+		 grâce à l'opérateur '~' et on les force en GRIS */
+	.note .fa-star:hover ~ .fa-star {
+		color: #f2f2f2;
+	}
+
+  .case1, .case2,.case3,.case4,.case5,.case6 {
+
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 2px 2px #dfdfdf;
+    width: 250px;
+    height: 210px;
+  }
+  .case7, .case8, .case9{
+    width: 369px;
+    }
+  
+  
+  .cases_gauche{
+    justify-content: space-between;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+  }
+  .image_description_haut_gauche{  
+      border-radius: 10px 10px 10px 10px;
+      margin-bottom: 30px;
+      box-shadow: 0px 0px 5px 2px #dfdfdf;;
+  }
+  .description-text-note{
+    padding-left: 16px;
+  }
+  .gauche h1 {
+    margin: 2.2em 2em 0.5em 2em;
+    font-size: 22px;
+  }
+  .gauche h2 {
+    font-weight: bold;
+    font-size: 20px;
+    object-fit: fill;
+    white-space: nowrap;
+    margin: 5px 0px 0px 0px;
+  }
+  .gauche p {
+    margin: 2px 0px 6px 0px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .fill {
+    object-fit: fill;
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+  }
+  .titre_droite{
+    display: flex;
+    justify-content: space-between;
+  }
+  .droite {
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+    width: 369px;
+    
+    border-radius: 15px;
+    background-color: #f2f2f2;
+  }
+  .gauche{
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+  }
+  .fa-solid {
+    color: #0065FC;
+}
+  .cases_populaires{
+    gap: 35px;
+    display: grid;
+  }
+  
+  .droite ul {
+    flex-direction: column;
+  }
+  #image_droite1,  #image_droite2,  #image_droite3  {
+    object-fit: cover;
+    width: 30%;
+    border-radius: 20px 0% 0% 20px;
+  }
+  .description_droite{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px 2px #dfdfdf;
+    border-radius: 20px 20px 20px 20px;
+    padding: 3px;
+    display: flex;
+    height: 140px;
+  }
+  .description_gauche{
+    padding: 4px;
+  }
+  .titres_note_droite{
+    margin: 0px 30px 0px 15px;
+    width: 60%;
+    display: grid;
+    
+  }
+  .droite h1 {
+    font-size: 22px;
+    margin: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    height: 0px;
+    
+  }
+  
+  .droite h2 {
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+}
+ .droite p {
+    font-size: 16px;
+}
+ 
+  
+  #afficher_plus{
+    font-weight: bold;
+    position: relative;
+    font-size: 18px;
+
+  }
+  
+  
+  /*------------------fin premiere partie body----------------------*/
+  .block_activite {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 50px;
+    max-width: 1280px;
+    font-size: 25px;
+    justify-content: space-between;
+  }
+  .partie2,.partie3,.partie4{
+  margin-left: 42px;
+  }
+  .partie1,
+  .partie2,
+  .partie3,
+  .partie4 {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .block_image_description {
+    margin-bottom: 42px;
+  }
+  .block_image_description img{
+    height: 380px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+    object-fit: cover;
+  }
+  
+
+  .block_activite h1 {
+    margin-top: 40px;
+    max-width: 1260px;
+    height: 11px;
+    font-size: 22px;
+    margin-right: 50%;
+    margin-bottom: 40px;
+  }
+  .block_activite h2 {
+    margin: 5px 0px 0px 15px;
+    height: 45px;
+    font-size: 22px;
+    font-size: 20px;
+  }
+  /*----------------bas de page--------------------*/
+  
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .bas_page ul h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+  }
+  .bas_page h1 {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+  }
+  .bas_gauche{
+    width: 152px;
+    height: 202px;
+  }
+  .bas_centre{
+    width: 110px;
+    height: 202px;
+  }
+  .bas_droite {
+    width:76px;
+    height: 202px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  li{    margin: 12px 0px;}
+li.uppercase {
+    font-weight: bold;
+}
+
+p.bolt {
+  font-weight: bold;
+  padding: 10px 20px;
+  height: 19px;
+  font-size: 15px;
+  margin: 0px;
+}
+h2.bolt {
+  font-size: 24px;
+}
+
+span{
+  font-size: 22px;
+}
+
+.block-bas{
+  display: grid;
+  padding: 0px 30px;
+
+}
+.block-bas h2{
+  padding: 10px 50px;
+
+}
+}
