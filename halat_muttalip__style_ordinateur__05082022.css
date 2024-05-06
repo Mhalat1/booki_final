@@ -1,4 +1,4 @@
-
+ 
 @media screen and (min-width: 1024px){
   *{
     font-family: 'Raleway', sans-serif;
@@ -15,10 +15,8 @@
   }
   
   header{
-    height: 385px;
     max-width: 1340px;
-  
-
+    margin:0px 50px 30px 50px;
   }
 
   .block_header {
@@ -64,7 +62,6 @@
   }
   .Texte{
     gap: 8px;
-    opacity: 0px;
     height: 53px;
     display: grid;
   }
